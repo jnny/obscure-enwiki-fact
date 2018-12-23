@@ -7,7 +7,7 @@ import requests
 import random
 
 def choosephrase():
-    a = raw_input("What topic do you want to know about? ")
+    a = input("What topic do you want to know about? ")
     return a
 
 def APIcall(topic):
